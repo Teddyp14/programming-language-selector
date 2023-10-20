@@ -1,4 +1,21 @@
+body {
+    margin: 0;
+}
+
 h1 {
     font-size: 70px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    background-color: grey;
+    margin-top: 0;
+    padding: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.form {
+    margin: 5%;
 }
