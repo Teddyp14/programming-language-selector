@@ -25,8 +25,14 @@ function determineLanguage(event) {
 
     if (classPreference === "english") {
         result = "python";
-    } else if (classPreference === "math" && (outdoorLove === 1 || outdoorLove === 2) && emailCheck === "constantly") {
-        result = "SQL"
+    } else if (classPreference === "math" && (outdoorLove === "1" || outdoorLove === "2") && emailCheck === "constantly") {
+        result = "SQL";
+    } else if (likeGames === "yes" && (outdoorLove === "3" || outdoorLove === "4" || outdoorLove === "5") && beverage === "coffee") {
+        result = "skyrim coding language";
+    } else if (classPreference === "math" && outdoorLove === "1" && emailCheck === "never" && likeGames === "unknown" && beverage === "energyDrink") {
+        result = "Binary";
+    } else {
+        result = "javascript"
     }
 
     console.log(result)
