@@ -22,7 +22,7 @@ This webpage provides a form with several questions that the user may answer. Wh
 
 ## Known Bugs
 
-* A functional button that will return the user to the form so that another submission can be made has not yet been successfully set up. A solution is in the works. 
+* The "submit" button of the form should be on the lefthand side of the page. Formatting solution are in progress.  
 
 ## License
 

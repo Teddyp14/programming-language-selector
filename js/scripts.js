@@ -47,5 +47,5 @@ function determineLanguage(event) {
         document.getElementById("result5").innerText = userName + ", " + "you should learn " + result;
     }
 
-    document.getElementById("languageQuestionnaire").classList.add("hidden");
+    // document.getElementById("languageQuestionnaire").classList.add("hidden");
 }

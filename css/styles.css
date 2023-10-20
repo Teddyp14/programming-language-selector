@@ -24,6 +24,20 @@ h1 {
     color: #FEBE3F
 }
 
+.firstQuestions {
+    float: left;
+    padding: 5%;
+}
+
+.lastQuestions {
+    float: left;
+    padding: 5%;
+}
+
+/* .btn {
+    float: left;
+} */
+
 #pythonResponse {
     text-align: center;
     font-family: sans-serif;
@@ -32,8 +46,9 @@ h1 {
     border: 5px solid #FEBE3F;
     color: #6565FE;
     width: 65%;
-    margin: auto;
+    margin: 5%;
     padding: 10%;
+    float: left;
 }
 
 #pythonResponse h2 {
@@ -122,4 +137,10 @@ h1 {
 
 #javascriptResponse p {
     font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        display: flex;
+    }
 }
