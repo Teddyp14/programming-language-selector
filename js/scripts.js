@@ -37,9 +37,11 @@ function determineLanguage(event) {
     if (classPreference === "english") {
         result = "Python! You'll be able write some awesome online blogs with this language!";
         document.getElementById("pythonResponse").removeAttribute("class");
+        document.getElementById("result1").innerText = userName + ", " + "you should learn " + result;
     } else if (classPreference === "math" && (outdoorLove === "1" || outdoorLove === "2") && emailCheck === "constantly") {
         result = "SQL! No spreadsheet will intimdate you if you know this language!";
         document.getElementById("sqlResponse").removeAttribute("class");
+        document.getElementById("result2").innerText = userName + ", " + "you should learn " + result;
     } else if (likeGames === "yes" && (outdoorLove === "3" || outdoorLove === "4" || outdoorLove === "5") && beverage === "coffee") {
         result = "C++! Get going on creating some Skyrim mods!";
     } else if (classPreference === "math" && outdoorLove === "1" && emailCheck === "never" && likeGames === "unknown" && beverage === "energyDrink") {
@@ -49,7 +51,8 @@ function determineLanguage(event) {
     }
 
     console.log(result)
-    document.getElementById("result").innerText = userName + ", " + "you should learn " + result;
+
+
 
 
 }
