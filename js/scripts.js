@@ -1,9 +1,3 @@
-//Business Logic
-
-
-
-//User Interface Logic
-
 function hideResults() {
     document.getElementById("pythonResponse").setAttribute("class", "hidden");
     document.getElementById("goResponse").setAttribute("class", "hidden");
@@ -17,11 +11,6 @@ window.addEventListener("load", function () {
     const form = document.getElementById("languageQuestionnaire");
     form.addEventListener("submit", determineLanguage);
 });
-
-// const resetButton = document.getElementById("resetButton");
-// resetButton.addEventListener("click", function () {
-//     location.reload()
-// });
 
 function determineLanguage(event) {
     event.preventDefault();
