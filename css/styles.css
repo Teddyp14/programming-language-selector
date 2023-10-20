@@ -19,3 +19,32 @@ h1 {
 .form {
     margin: 5%;
 }
+
+#pythonResponse {
+    text-align: center;
+    background-color: aqua;
+    color: blueviolet;
+    width: 65%;
+    margin: auto;
+    padding: 10%;
+}
+
+#pythonResponse h2 {
+    font-size: 60px;
+}
+
+#pythonResponse p {
+    font-size: 40px;
+}
+
+#goResponse {
+    background-color: blueviolet;
+}
+
+#cResponse {
+    background-color: blue;
+}
+
+#sqlResponse {
+    background-color: green;
+}

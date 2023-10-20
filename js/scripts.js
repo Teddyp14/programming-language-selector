@@ -18,6 +18,11 @@ window.addEventListener("load", function () {
     form.addEventListener("submit", determineLanguage);
 });
 
+// const resetButton = document.getElementById("resetButton");
+// resetButton.addEventListener("click", function () {
+//     location.reload()
+// });
+
 function determineLanguage(event) {
     event.preventDefault();
 
@@ -31,9 +36,8 @@ function determineLanguage(event) {
     const beverage = document.querySelector("input[name='input5']:checked").value;
     let result;
 
-
     if (classPreference === "english") {
-        result = "Python! You can do anything from building a website to taking advantage of machine learning!";
+        result = "Pythonand take advantage of machine learning!";
         document.getElementById("pythonResponse").removeAttribute("class");
         document.getElementById("result1").innerText = userName + ", " + "you should learn " + result;
     } else if (classPreference === "math" && (outdoorLove === "1" || outdoorLove === "2") && emailCheck === "constantly") {
@@ -54,7 +58,5 @@ function determineLanguage(event) {
         document.getElementById("result5").innerText = userName + ", " + "you should learn " + result;
     }
 
-
-
-
+    document.getElementById("languageQuestionnaire").classList.add("hidden");
 }
