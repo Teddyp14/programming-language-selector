@@ -1,13 +1,15 @@
 body {
     margin: 0;
+    background-color: #7F7F7F;
 }
 
 h1 {
     font-size: 70px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: red;
-    background-color: grey;
+    color: #FEBE3F;
+    text-shadow: 5px 5px 5px black;
+    background-color: #4A4559;
     margin-top: 0;
     padding: 40px;
 }
@@ -18,12 +20,17 @@ h1 {
 
 .form {
     margin: 5%;
+    font-family: sans-serif;
+    color: #FEBE3F
 }
 
 #pythonResponse {
     text-align: center;
-    background-color: aqua;
-    color: blueviolet;
+    font-family: sans-serif;
+    background-color: #4CE44C;
+    border-radius: 10%;
+    border: 5px solid #FEBE3F;
+    color: #6565FE;
     width: 65%;
     margin: auto;
     padding: 10%;
@@ -38,13 +45,81 @@ h1 {
 }
 
 #goResponse {
-    background-color: blueviolet;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #4CE44C;
+    border-radius: 10%;
+    border: 5px solid #FEBE3F;
+    color: #6565FE;
+    width: 65%;
+    margin: auto;
+    padding: 10%;
+}
+
+#goResponse h2 {
+    font-size: 60px;
+}
+
+#goResponse p {
+    font-size: 40px;
 }
 
 #cResponse {
-    background-color: blue;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #4CE44C;
+    border-radius: 10%;
+    border: 5px solid #FEBE3F;
+    color: #6565FE;
+    width: 65%;
+    margin: auto;
+    padding: 10%;
+}
+
+#cResponse h2 {
+    font-size: 60px;
+}
+
+#cResponse p {
+    font-size: 40px;
 }
 
 #sqlResponse {
-    background-color: green;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #4CE44C;
+    border-radius: 10%;
+    border: 5px solid #FEBE3F;
+    color: #6565FE;
+    width: 65%;
+    margin: auto;
+    padding: 10%;
+}
+
+#sqlResponse h2 {
+    font-size: 60px;
+}
+
+#sqlResponse p {
+    font-size: 40px;
+}
+
+#javascriptResponse {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #4CE44C;
+    border-radius: 10%;
+    border: 5px solid #FEBE3F;
+    color: #6565FE;
+    width: 65%;
+    margin: auto;
+    padding: 10%;
+}
+
+#javascriptResponse h2 {
+    font-size: 60px;
+}
+
+#javascriptResponse p {
+    font-size: 40px;
 }

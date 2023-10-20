@@ -37,7 +37,7 @@ function determineLanguage(event) {
     let result;
 
     if (classPreference === "english") {
-        result = "Pythonand take advantage of machine learning!";
+        result = "Python and take advantage of machine learning!";
         document.getElementById("pythonResponse").removeAttribute("class");
         document.getElementById("result1").innerText = userName + ", " + "you should learn " + result;
     } else if (classPreference === "math" && (outdoorLove === "1" || outdoorLove === "2") && emailCheck === "constantly") {
