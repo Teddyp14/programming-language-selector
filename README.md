@@ -1,4 +1,4 @@
-# _Programming Language Suggestor_
+# _Programming Language Suggester_
 
 #### By _**Teddy Peterschmidt**_
 
